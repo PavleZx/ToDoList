@@ -1,0 +1,50 @@
+.container{
+    box-shadow: 5px 5px 5px rgba(30, 30, 30, 0.393);
+    border: none;
+    background-color: rgb(233, 233, 233);
+    height: 50px;
+    width: 98%;
+    line-height: 50px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.gumb {
+    border: none;
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(116, 174, 78);
+    color: rgb(255, 255, 255); 
+    box-shadow: 3px 3px 3px rgba(30, 30, 30, 0.393);  
+}
+
+.gumb:hover {
+    border: none;
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(162, 252, 102) ;
+    color: rgb(255, 255, 255); 
+    box-shadow: 3px 3px 3px rgba(30, 30, 30, 0.393);  
+}
+.gumb:active {
+    border: none;
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    height: 28px;
+    width: 96px;
+    border-radius: 5px;
+    background-color: rgb(190, 240, 156);
+    color: rgb(82, 121, 51); 
+    box-shadow: 3px 3px 3px rgba(30, 30, 30, 0.393);  
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles\decorations.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class = "inp" onkeydown="
+        if (event.key == 'Enter'){
+            prints(document.querySelector('.inp').value);
+            document.querySelector('.inp').value = ''
+        }
+        ">
+
+    <button class = "add" onclick="
+        const recenica = document.querySelector('.inp').value;
+        prints(recenica);
+        document.querySelector('.inp').value = '';
+    ">Spremi</button>
+    <style>
+    </style>
+
+
+    <div class = "container2"></div>
+
+
+
+    <script src = "scripts\todo.js">
+
+    
+    </script>
+</body>
+</html>
